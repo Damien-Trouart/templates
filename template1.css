@@ -1,0 +1,45 @@
+body {
+  background-color: lightgray;
+  line-height: 1.6;
+  font-family: "roboto";
+}
+
+h1,
+.subtitle,
+h2,
+figure,
+footer {
+  text-align: center;
+}
+
+ul {
+  padding-left: 37%;
+  padding-right: 36%;
+}
+
+li {
+  padding: 2%;
+}
+
+.date {
+  font-weight: bold;
+}
+
+blockquote {
+  text-align: left;
+  padding-left: 35%;
+  padding-right: 36%;
+  font-style: italic;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+footer {
+  font-weight: bold;
+}
+
+figure {
+  background-color: white;
+  margin-bottom: 2%;
+  padding: 1%;
+}

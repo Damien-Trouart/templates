@@ -1,0 +1,61 @@
+.bloc_total {
+  display: flex;
+  height: max-content;
+  width: max-content;
+  background-color: rgb(223, 229, 240);
+}
+
+.bloc_gauche {
+  width: 15%;
+  background-color: rgb(39, 39, 56);
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.bloc_droite {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_gauche {
+  display: flex;
+  flex-direction: row;
+}
+
+.bloc_tableau,
+.bloc_entete {
+  background-color: white;
+  padding: 1em;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  border-radius: 0.5em;
+}
+
+footer {
+  background-color: white;
+  color: gray;
+  padding: 2em;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a,
+.bloc_gauche a,
+header a {
+  color: gray;
+  text-decoration: none;
+}
+.bloc_gauche h2 {
+  color: white;
+}

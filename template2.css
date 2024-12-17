@@ -1,0 +1,47 @@
+body {
+  background: rgba(172, 172, 241, 0.726) url("img_template2.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "roboto";
+  line-height: 25px;
+}
+
+form {
+  background-color: rgba(2, 7, 26, 0.966);
+  background-blend-mode: overlay;
+  padding: 2em;
+  margin-left: 40em;
+  margin-right: 40em;
+  border-radius: 1%;
+}
+
+#nom,
+#mail,
+#age,
+#role,
+.reco,
+#favfeature,
+.what_improve,
+#other {
+  margin-bottom: 1em;
+}
+
+header {
+  text-align: center;
+  line-height: 10px;
+  padding-bottom: 1em;
+}
+
+#submit {
+  background-color: green;
+}
+
+h2 {
+  font-size: small;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0%;
+}
